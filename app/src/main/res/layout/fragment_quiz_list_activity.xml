@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.QuizListActivity"
+    android:orientation="vertical"
+
+    >
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/ItemTextViewStyle"
+        android:id="@+id/tv_ques_1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_1"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/ItemTextViewStyle"
+        android:id="@+id/tv_ques_2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_2"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_finish"
+
+        android:text="Finish Quiz"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_login"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/ItemTextViewStyle"
+            android:id="@+id/tv_ques_1"
+            android:text="Pick the Logo for Mumbai Indians in IPL."
+            android:layout_marginTop="30dp"
+            />
+
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_mumbai"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_mumbai_indians"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_punjab"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/punjab"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_hyderabad"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_sunrisers_hyderabad"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_kolkata"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_kolkata"
+            />
+     </FrameLayout>
+
+
+   <androidx.appcompat.widget.AppCompatTextView
+            style="@style/ItemTextViewStyle"
+            android:id="@+id/tv_ques_2"
+            android:text="Pick the Logo for Karachi in PSL."
+            android:layout_marginTop="30dp"
+            />
+
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_multan_sultan"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_multan_sultans"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_karachi"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_karachi_kings"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_lahore"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_lahore_qalandars"
+            />
+     </FrameLayout>
+     <FrameLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:id="@+id/fl_peshawar"
+         android:background="@color/white"
+
+         >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/peshawar_zalmi"
+            />
+     </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_next"
+
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_login"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.QuizButtonFragment"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/ItemTextViewStyle"
+        tools:text="sdjhajksfdajkfgbdkjfgf"
+        android:id="@+id/tv_ques_1"
+        android:layout_marginTop="30dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_answer_1"
+        tools:text = "sdjsklada"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_ques"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_answer_2"
+        tools:text = "sdjsklada"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_ques"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_answer_3"
+        tools:text = "sdjsklada"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_ques"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_answer_4"
+        tools:text = "sdjsklada"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_ques"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/ItemTextViewStyle"
+        tools:text="sdjhajksfdajkfgbdkjfgf"
+        android:id="@+id/tv_ques_2"
+        android:layout_marginTop="30dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_answer_2_1"
+        tools:text = "sdjsklada"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_ques"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_answer_2_2"
+        tools:text = "sdjsklada"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_ques"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_answer_2_3"
+        tools:text = "sdjsklada"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_ques"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_answer_2_4"
+        tools:text = "sdjsklada"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_btn_ques"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_next"
+
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_login"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        />
+
+</LinearLayout>
+</ScrollView>
